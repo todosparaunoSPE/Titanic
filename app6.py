@@ -80,7 +80,7 @@ if train_file is not None and test_file is not None:
     not_zero = ['Age']
     for column in not_zero:
         mean = int(train_data[column].mean(skipna=True))
-        train_data[column] = train_data[column].replace(np.NaN, mean)
+        train_data[column] = train_data[column].replace(np.nan, mean)
     
     # Selección de características y variable objetivo
     X = train_data[['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare']]
