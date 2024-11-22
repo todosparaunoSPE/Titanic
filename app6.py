@@ -186,4 +186,4 @@ with st.sidebar:
     st.markdown("## © Copyrith")
     st.markdown("**Javier Horacio Pérez Ricárdez**")
     st.markdown("Aprendizaje máquina I")
-    st.markdown("**Catedrático: DR. Félix Orlando Martínez**")
+    st.markdown("**Catedrático: Dr. Félix Orlando Martínez**")
