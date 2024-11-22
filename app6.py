@@ -180,3 +180,8 @@ with st.sidebar:
     7. **Descargar Resultados:** Los resultados de la predicción se pueden descargar en formato CSV.
 
     """)
+
+
+with st.sidebar:
+    st.markdown("## © Copyrith")
+    st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")
